@@ -1,0 +1,23 @@
+
+@keyframes colorRunning {
+    0% {
+      background-position: right bottom; 
+    }
+    100% {
+      background-position: left bottom; 
+    }
+}
+
+@keyframes colorRunningReverse {
+  0% {
+    background-position: left bottom; 
+  }
+  100% {
+    background-position: right bottom; 
+  }
+}
+
+.smooch-texts, .nav-r-text{
+  transition: color 0.3s ease-in-out;
+}
+

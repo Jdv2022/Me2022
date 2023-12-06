@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+@import url("animation.css");
+
+@font-face{
+    font-family: 'nav-font';
+    src: url('../texts/Sono-VariableFont_MONO,wght.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'header-font';
+    src: url('../texts/KantumruyPro-Thin.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'titles-font';
+    src: url('../texts/Kanit-Light.ttf') format('truetype');
+}
+
+.smooch-texts{
+    font-family: "nav-font", sans-serif;
+    font-size: 1.3rem;
+    color: white;
+}
+
+.nav-r-text{
+    font-family: "nav-font", sans-serif;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+}
+
+.font-header{
+    font-family: "header-font", sans-serif;
+}
+
+.font-header-bold{
+    font-family: "header-font", sans-serif;
+    font-weight: bolder;
+}
+
+/* Buttons */
+.button, .button-white{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid rgb(255, 255, 173);
+    border-radius: 5px;
+    font-weight: 600;
+    transition: background 300ms ease-in-out;
+}
+
+.button{
+    background: linear-gradient(45deg, #f1c40f 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+}
+
+.button:hover, .button-white:hover {
+    background-position: 0%;
+    color: black;
+}
+
+.indent-first {
+    text-indent: 20px; 
+}
+
+.textareaHeight{
+    height: 140px;
+    resize: none;
+}
+
+.custom-align{
+    padding-top: 20px;
+    text-align: center;
+}
+
+.button-white {
+    background: linear-gradient(45deg, #ffffff 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+}
+
+.custom-bold{
+    font-weight: bold;
+}
+
+.max-right{
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.titles-r-text{
+    font-family: "titles-font", sans-serif;
+}
+
+.opac-0{
+    background-color: rgba(128, 128, 128, 0);
+}
+
+.custom-width-200px{
+    width: 200px;
+}
